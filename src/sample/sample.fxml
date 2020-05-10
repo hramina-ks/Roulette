@@ -4,7 +4,6 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -46,7 +45,7 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </Che>
+                </CheckBox>
                 <CheckBox fx:id="num2" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="2" textAlignment="CENTER" GridPane.columnIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -119,7 +118,7 @@
                   <String fx:value="number" />
                </styleClass>
                 </CheckBox>
-                <RadioButton fx:id="num10" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="41.0" prefWidth="64.0" stylesheets="@style.css" text="10" textAlignment="CENTER" GridPane.columnIndex="9">
+                <CheckBox fx:id="num10" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="41.0" prefWidth="64.0" stylesheets="@style.css" text="10" textAlignment="CENTER" GridPane.columnIndex="9">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -127,8 +126,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num11" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="46.0" prefWidth="64.0" stylesheets="@style.css" text="11" textAlignment="CENTER" GridPane.columnIndex="10">
+                </CheckBox>
+                <CheckBox fx:id="num11" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="46.0" prefWidth="64.0" stylesheets="@style.css" text="11" textAlignment="CENTER" GridPane.columnIndex="10">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -136,8 +135,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num12" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" stylesheets="@style.css" text="12" textAlignment="CENTER" GridPane.columnIndex="11">
+                </CheckBox>
+                <CheckBox fx:id="num12" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="34.0" prefWidth="64.0" stylesheets="@style.css" text="12" textAlignment="CENTER" GridPane.columnIndex="11">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -145,8 +144,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num13" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="42.0" prefWidth="63.0" stylesheets="@style.css" text="13" textAlignment="CENTER" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num13" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="42.0" prefWidth="63.0" stylesheets="@style.css" text="13" textAlignment="CENTER" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -154,8 +153,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num14" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="14" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num14" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="14" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -163,8 +162,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num15" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="15" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num15" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="15" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -172,8 +171,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num16" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="34.0" prefWidth="63.0" stylesheets="@style.css" text="16" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num16" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="34.0" prefWidth="63.0" stylesheets="@style.css" text="16" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -181,8 +180,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num17" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="42.0" prefWidth="63.0" stylesheets="@style.css" text="17" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num17" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="42.0" prefWidth="63.0" stylesheets="@style.css" text="17" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -190,8 +189,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num18" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="18" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num18" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="18" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -199,8 +198,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num19" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="19" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num19" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="19" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -208,8 +207,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num20" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="39.0" prefWidth="63.0" stylesheets="@style.css" text="20" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num20" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="39.0" prefWidth="63.0" stylesheets="@style.css" text="20" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -217,8 +216,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num21" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="21" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num21" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="21" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -226,8 +225,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num22" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="22" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num22" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="22" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -235,8 +234,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num23" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="47.0" prefWidth="64.0" stylesheets="@style.css" text="23" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num23" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="47.0" prefWidth="64.0" stylesheets="@style.css" text="23" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -244,8 +243,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num24" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="24" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="1">
+                </CheckBox>
+                <CheckBox fx:id="num24" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="64.0" stylesheets="@style.css" text="24" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -253,8 +252,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num25" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="40.0" prefWidth="63.0" stylesheets="@style.css" text="25" textAlignment="CENTER" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num25" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="40.0" prefWidth="63.0" stylesheets="@style.css" text="25" textAlignment="CENTER" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -262,8 +261,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num26" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="49.0" prefWidth="63.0" stylesheets="@style.css" text="26" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num26" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="49.0" prefWidth="63.0" stylesheets="@style.css" text="26" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -271,8 +270,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num27" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="63.0" stylesheets="@style.css" text="27" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num27" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="63.0" stylesheets="@style.css" text="27" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -280,8 +279,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num28" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="63.0" stylesheets="@style.css" text="28" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num28" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="63.0" stylesheets="@style.css" text="28" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -289,8 +288,8 @@
                         <String fx:value="color_black" />
                         <String fx:value="number" />
                     </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num29" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="29" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num29" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="29" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -298,8 +297,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num30" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="30" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num30" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="30" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -307,8 +306,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num31" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="63.0" stylesheets="@style.css" text="31" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num31" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="63.0" stylesheets="@style.css" text="31" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -316,8 +315,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num32" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="32" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num32" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="63.0" stylesheets="@style.css" text="32" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -325,8 +324,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num33" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="36.0" prefWidth="64.0" stylesheets="@style.css" text="33" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num33" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="36.0" prefWidth="64.0" stylesheets="@style.css" text="33" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -334,8 +333,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num34" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="64.0" stylesheets="@style.css" text="34" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num34" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="64.0" stylesheets="@style.css" text="34" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -343,8 +342,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num35" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="64.0" stylesheets="@style.css" text="35" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num35" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="37.0" prefWidth="64.0" stylesheets="@style.css" text="35" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -352,8 +351,8 @@
                   <String fx:value="color_black" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num36" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="64.0" stylesheets="@style.css" text="36" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="2">
+                </CheckBox>
+                <CheckBox fx:id="num36" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="43.0" prefWidth="64.0" stylesheets="@style.css" text="36" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -361,8 +360,8 @@
                   <String fx:value="color_red" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num0" accessibleRole="RADIO_BUTTON" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                </CheckBox>
+                <CheckBox fx:id="num0" accessibleRole="RADIO_BUTTON" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="0" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -370,8 +369,8 @@
                   <String fx:value="color_green" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
-                <RadioButton fx:id="num00" accessibleRole="RADIO_BUTTON" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="63.0" stylesheets="@style.css" text="00" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                </CheckBox>
+                <CheckBox fx:id="num00" accessibleRole="RADIO_BUTTON" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="63.0" stylesheets="@style.css" text="00" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="3">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -379,7 +378,7 @@
                   <String fx:value="color_green" />
                   <String fx:value="number" />
                </styleClass>
-                </RadioButton>
+                </CheckBox>
             </children>
         </GridPane>
         <Button fx:id="btn_start" layoutX="336.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="128.0" styleClass="btn_start" stylesheets="@style.css" text="Играть!" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="336.0" />
@@ -394,22 +393,22 @@
                       <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                   </rowConstraints>
                   <children>
-                      <RadioButton id="black" fx:id="color_black" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="118.0" styleClass="binar_item" stylesheets="@style.css" text="Черное" textAlignment="CENTER">
+                      <CheckBox fx:id="color_black" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="118.0" styleClass="binar_item" stylesheets="@style.css" text="Черное" textAlignment="CENTER">
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                      <GridPane.margin>
                         <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
                      </GridPane.margin>
-                  </RadioButton>
-                      <RadioButton id="red" fx:id="color_red" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" styleClass="binar_item" stylesheets="@style.css" text="Красное" textAlignment="CENTER" GridPane.columnIndex="1">
+                  </CheckBox>
+                      <CheckBox fx:id="color_red" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" styleClass="binar_item" stylesheets="@style.css" text="Красное" textAlignment="CENTER" GridPane.columnIndex="1">
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                      <GridPane.margin>
                         <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
                      </GridPane.margin>
-                  </RadioButton>
+                  </CheckBox>
                   </children>
               </GridPane>
               <GridPane fx:id="even" alignment="CENTER" layoutX="330.0" layoutY="36.0" prefHeight="28.0" prefWidth="230.0" stylesheets="@style.css" AnchorPane.rightAnchor="2.0">
@@ -421,22 +420,22 @@
                       <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                   </rowConstraints>
                   <children>
-                      <RadioButton id="black" fx:id="even_even" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" styleClass="binar_item" stylesheets="@style.css" text="Четное" textAlignment="CENTER">
+                      <CheckBox fx:id="even_even" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" styleClass="binar_item" stylesheets="@style.css" text="Четное" textAlignment="CENTER">
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                      <GridPane.margin>
                         <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
                      </GridPane.margin>
-                  </RadioButton>
-                      <RadioButton id="red" fx:id="even_odd" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="113.0" styleClass="binar_item" stylesheets="@style.css" text="Нечетное" textAlignment="CENTER" GridPane.columnIndex="1">
+                  </CheckBox>
+                      <CheckBox fx:id="even_odd" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="113.0" styleClass="binar_item" stylesheets="@style.css" text="Нечетное" textAlignment="CENTER" GridPane.columnIndex="1">
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                      <GridPane.margin>
                         <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
                      </GridPane.margin>
-                  </RadioButton>
+                  </CheckBox>
                   </children>
               </GridPane>
          </children>
