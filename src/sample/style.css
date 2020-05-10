@@ -1,0 +1,87 @@
+.body {
+    -fx-background-color: green;
+}
+.menu_bar {
+    -fx-background-color: green;
+}
+.menu_btn {
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: lightgreen;
+}
+.menu_btn_faq {
+    -fx-background-image: url('images/question.png');
+    -fx-background-position: center center;
+}
+.menu_btn_aboutme {
+    -fx-background-image: url('images/info.png');
+    -fx-background-position: center center;
+}
+
+.counter {
+    -fx-background-color: white;
+    -fx-text-inner-color: black;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: green;
+}
+.number {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: green;
+}
+.color_red {
+    -fx-text-fill: red;
+}
+
+.color_black {
+    -fx-text-fill: black;
+}
+
+.color_green {
+    -fx-text-fill: green;
+}
+
+.binar {
+    -fx-background-image: url('images/roulette.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-font-weight: bold;
+    -fx-background-color: lightgreen;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: lightgreen;
+}
+
+.binar_item {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: green;
+}
+
+.btn_start {
+    -fx-background-color: red;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: lightgreen;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.result {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: lightgreen;
+}
+
+.result_block {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: gray;
+    -fx-border-width: 5;
+}
