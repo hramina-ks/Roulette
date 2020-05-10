@@ -452,14 +452,14 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                   </rowConstraints>
                   <children>
-                  <AnchorPane fx:id="result1" disable="true" maxWidth="220.0" prefHeight="147.0" prefWidth="150.0" styleClass="result_block" stylesheets="@style.css">
+                  <AnchorPane fx:id="result1" maxWidth="220.0" prefHeight="147.0" prefWidth="150.0" styleClass="result_block" stylesheets="@style.css">
                      <children>
-                            <Label fx:id="result_num" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="ХХ" textAlignment="CENTER" AnchorPane.leftAnchor="1.0">
+                            <Label fx:id="result_num" styleClass="result_lable" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="ХХ" textAlignment="CENTER" AnchorPane.leftAnchor="1.0">
                                 <font>
                                     <Font size="48.0" />
                                 </font>
                             </Label>
-                            <Label fx:id="win_num" alignment="TOP_CENTER" contentDisplay="TOP" layoutY="67.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER">
+                            <Label fx:id="win_num" styleClass="result_lable" alignment="TOP_CENTER" contentDisplay="TOP" layoutY="67.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER">
                                 <font>
                                     <Font size="28.0" />
                                 </font>
@@ -469,28 +469,28 @@
                         <Insets />
                      </GridPane.margin>
                   </AnchorPane>
-                  <AnchorPane fx:id="result2" disable="true" maxWidth="220.0" prefHeight="144.0" prefWidth="231.0" styleClass="result_block" stylesheets="@style.css" GridPane.columnIndex="2">
+                  <AnchorPane fx:id="result2" maxWidth="220.0" prefHeight="144.0" prefWidth="231.0" styleClass="result_block" stylesheets="@style.css" GridPane.columnIndex="2">
                      <children>
-                            <Label fx:id="result_even" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" maxHeight="70.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Четность" textAlignment="CENTER" AnchorPane.rightAnchor="3.0">
+                            <Label fx:id="result_even" styleClass="result_lable" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" maxHeight="70.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Четность" textAlignment="CENTER" AnchorPane.rightAnchor="3.0">
                                 <font>
                                     <Font size="40.0" />
                                 </font>
                             </Label>
-                            <Label fx:id="win_even" alignment="TOP_CENTER" layoutX="6.0" layoutY="72.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER" AnchorPane.rightAnchor="10.0">
+                            <Label fx:id="win_even" styleClass="result_lable" alignment="TOP_CENTER" layoutX="6.0" layoutY="72.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER" AnchorPane.rightAnchor="10.0">
                                 <font>
                                     <Font size="28.0" />
                                 </font>
                             </Label>
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="result3" disable="true" maxWidth="239.0" prefHeight="148.0" prefWidth="239.0" styleClass="result_block" stylesheets="@style.css" GridPane.columnIndex="1">
+                  <AnchorPane fx:id="result3" maxWidth="239.0" prefHeight="148.0" prefWidth="239.0" styleClass="result_block" stylesheets="@style.css" GridPane.columnIndex="1">
                      <children>
-                            <Label fx:id="result_color" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Цвет" textAlignment="CENTER">
+                            <Label fx:id="result_color" styleClass="result_lable" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Цвет" textAlignment="CENTER">
                                 <font>
                                     <Font size="40.0" />
                                 </font>
                             </Label>
-                            <Label fx:id="win_color" alignment="TOP_CENTER" layoutY="68.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER">
+                            <Label fx:id="win_color" styleClass="result_lable" alignment="TOP_CENTER" layoutY="68.0" prefHeight="70.0" prefWidth="230.0" stylesheets="@style.css" text="Результат" textAlignment="CENTER">
                                 <font>
                                     <Font size="28.0" />
                                 </font>

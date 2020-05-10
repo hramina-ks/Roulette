@@ -85,3 +85,7 @@
     -fx-border-color: gray;
     -fx-border-width: 5;
 }
+
+.result_lable {
+    -fx-text-fill: gray;
+}

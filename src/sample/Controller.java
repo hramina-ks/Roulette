@@ -44,7 +44,12 @@ public class Controller {
             evenGroup[i] = (CheckBox)even.getChildren().get(i); //записываем цвета в массив
         }
 
-        
+        ObservableList resultBlocks =  result.getChildren(); //это блоки результатов
+        AnchorPane resultNum = (AnchorPane) resultBlocks.get(0);
+        ObservableList resultNum_labels = resultNum.getChildren();
+        Label label_num = (Label)resultNum_labels.get(0);
+        Label label_win = (Label)resultNum_labels.get(1);
+        System.out.println(label_win);
 
         bets numberBet = new bets();
         numberBet.Bet = null;
@@ -61,9 +66,15 @@ public class Controller {
                     }
                     if (numbersGroup[finalI].isSelected()) {
                         numberBet.Bet = numbersGroup[finalI];
+                        resultNum.setStyle("-fx-border-color: black;");
+                        label_num.setStyle("-fx-text-fill: black");
+                        label_win.setStyle("-fx-text-fill: black");
                     }
                     else {
                         numberBet.Bet = null;
+                        resultNum.setStyle("-fx-border-color: gray");
+                        label_num.setStyle("-fx-text-fill: gray");
+                        label_win.setStyle("-fx-text-fill: gray");
                     }
                 }
             });
