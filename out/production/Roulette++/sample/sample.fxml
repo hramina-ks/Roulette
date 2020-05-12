@@ -522,7 +522,7 @@
                   <String fx:value="menu_btn" />
                   <String fx:value="menu_btn_aboutme" />
                </styleClass></Button>
-            <TextField fx:id="counter" editable="false" prefHeight="26.0" prefWidth="138.0" styleClass="counter" stylesheets="@style.css" text="Всего очков: 10" translateX="550.0" />
+            <TextField fx:id="counter" editable="false" prefHeight="26.0" prefWidth="138.0" styleClass="counter" stylesheets="@style.css" text="Всего очков: " translateX="550.0" />
         </items>
       </ToolBar>
     </children>
