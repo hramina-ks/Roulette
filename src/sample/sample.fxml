@@ -37,7 +37,8 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <CheckBox fx:id="num1" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="34.0" prefWidth="63.0" stylesheets="@style.css" text="1" textAlignment="CENTER">
+                <CheckBox fx:id="num1" alignment="CENTER" cache="true" mnemonicParsing="false"
+                          prefHeight="34.0" prefWidth="63.0" stylesheets="@style.css" text="1" textAlignment="CENTER">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -46,7 +47,7 @@
                   <String fx:value="number" />
                </styleClass>
                 </CheckBox>
-                <CheckBox fx:id="num2" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="2" textAlignment="CENTER" GridPane.columnIndex="1">
+                <CheckBox fx:id="num2"  alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="38.0" prefWidth="63.0" stylesheets="@style.css" text="2" textAlignment="CENTER" GridPane.columnIndex="1">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
@@ -55,7 +56,7 @@
                   <String fx:value="number" />
                </styleClass>
                 </CheckBox>
-                <CheckBox fx:id="num3" accessibleRole="RADIO_BUTTON" alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="63.0" stylesheets="@style.css" text="3" textAlignment="CENTER" GridPane.columnIndex="2">
+                <CheckBox fx:id="num3"  alignment="CENTER" cache="true" mnemonicParsing="false" prefHeight="35.0" prefWidth="63.0" stylesheets="@style.css" text="3" textAlignment="CENTER" GridPane.columnIndex="2">
                     <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>

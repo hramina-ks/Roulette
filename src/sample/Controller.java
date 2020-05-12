@@ -3,11 +3,8 @@ package sample;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.Node;
 import javafx.scene.control.*;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 
@@ -24,9 +21,42 @@ public class Controller {
     @FXML
     private GridPane result; //блок результатов
 
-    public class bets {
-        public CheckBox Bet;
+    public class Bet {
+        private CheckBox bet;
+
+        public CheckBox getBet(CheckBox[] group, int finalI, AnchorPane resultBlock) {
+            for (CheckBox j : group) {
+                if (j.equals(bet)) {
+                    j.setSelected(false);
+                }
+            }
+            ObservableList resultLabels = resultBlock.getChildren();
+            Label label_num = (Label)resultLabels.get(0);
+            Label label_win = (Label)resultLabels.get(1);
+
+            if (group[finalI].isSelected()) {
+                bet = group[finalI];
+                resultBlock.setStyle("-fx-border-color: black;");
+                label_num.setStyle("-fx-text-fill: black");
+                label_win.setStyle("-fx-text-fill: black");
+            }
+            else {
+                bet = null;
+                resultBlock.setStyle("-fx-border-color: gray");
+                label_num.setStyle("-fx-text-fill: gray");
+                label_win.setStyle("-fx-text-fill: gray");
+            }
+
+            return bet;
+        }
     }
+
+    public class bets {
+        public CheckBox numberBet = null;
+        public CheckBox colorBet = null;
+        public CheckBox evenBet = null;
+    }
+
 
     public void initialize() {
         CheckBox[] numbersGroup = new CheckBox[numbers.getChildren().size()]; //массив по количеству чекбоксов с цифрами
@@ -46,38 +76,22 @@ public class Controller {
 
         ObservableList resultBlocks =  result.getChildren(); //это блоки результатов
         AnchorPane resultNum = (AnchorPane) resultBlocks.get(0);
-        ObservableList resultNum_labels = resultNum.getChildren();
-        Label label_num = (Label)resultNum_labels.get(0);
-        Label label_win = (Label)resultNum_labels.get(1);
-        System.out.println(label_win);
+        AnchorPane resultCol = (AnchorPane) resultBlocks.get(2);
+        AnchorPane resultEven = (AnchorPane) resultBlocks.get(1);
 
-        bets numberBet = new bets();
-        numberBet.Bet = null;
+        Bet Bet = new Bet();
+        bets bets = new bets();
 
         for (int i = 0; i < numbersGroup.length; i++) {
             int finalI = i;
             numbersGroup[i].selectedProperty().addListener(new ChangeListener<Boolean>() {
                 @Override
                 public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-                    for (CheckBox j : numbersGroup) {
-                        if (j.equals(numberBet.Bet)) {
-                            j.setSelected(false);
-                        }
-                    }
-                    if (numbersGroup[finalI].isSelected()) {
-                        numberBet.Bet = numbersGroup[finalI];
-                        resultNum.setStyle("-fx-border-color: black;");
-                        label_num.setStyle("-fx-text-fill: black");
-                        label_win.setStyle("-fx-text-fill: black");
-                    }
-                    else {
-                        numberBet.Bet = null;
-                        resultNum.setStyle("-fx-border-color: gray");
-                        label_num.setStyle("-fx-text-fill: gray");
-                        label_win.setStyle("-fx-text-fill: gray");
-                    }
+                    bets.numberBet = Bet.getBet(numbersGroup, finalI, resultNum);
                 }
             });
+            System.out.println(bets.numberBet);
         }
+
     }
 }
