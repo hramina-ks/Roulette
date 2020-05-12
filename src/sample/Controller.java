@@ -3,10 +3,15 @@ package sample;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
+import jdk.internal.org.objectweb.asm.Handle;
+
+import java.awt.event.MouseEvent;
 
 public class Controller {
     @FXML
@@ -24,7 +29,7 @@ public class Controller {
     public class Bet {
         private CheckBox bet;
 
-        public CheckBox getBet(CheckBox[] group, int finalI, AnchorPane resultBlock) {
+        public void forBet(CheckBox[] group, int finalI, AnchorPane resultBlock) {
             for (CheckBox j : group) {
                 if (j.equals(bet)) {
                     j.setSelected(false);
@@ -46,16 +51,22 @@ public class Controller {
                 label_num.setStyle("-fx-text-fill: gray");
                 label_win.setStyle("-fx-text-fill: gray");
             }
+        }
 
+        public CheckBox startBet(CheckBox[] group) {
+            for (CheckBox i : group){
+                if (i.isSelected()) {
+                    bet = i;
+                    break;
+                }
+            }
             return bet;
         }
     }
 
-    public class bets {
         public CheckBox numberBet = null;
         public CheckBox colorBet = null;
         public CheckBox evenBet = null;
-    }
 
 
     public void initialize() {
@@ -80,18 +91,23 @@ public class Controller {
         AnchorPane resultEven = (AnchorPane) resultBlocks.get(1);
 
         Bet Bet = new Bet();
-        bets bets = new bets();
 
         for (int i = 0; i < numbersGroup.length; i++) {
             int finalI = i;
             numbersGroup[i].selectedProperty().addListener(new ChangeListener<Boolean>() {
                 @Override
                 public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-                    bets.numberBet = Bet.getBet(numbersGroup, finalI, resultNum);
+                    Bet.forBet(numbersGroup, finalI,resultNum);
                 }
             });
-            System.out.println(bets.numberBet);
         }
 
+        btn_start.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                numberBet = Bet.startBet(numbersGroup);
+                System.out.println(numberBet);
+            }
+        });
     }
 }
