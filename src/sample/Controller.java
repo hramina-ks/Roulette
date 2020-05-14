@@ -119,7 +119,7 @@ public class Controller {
                         "2) На цвет (не более одного варианта)\n3) На четность (не более одного варианта)\n" +
                         "Можно делать делать одновременно 1, 2 и 3 любых ставки.\n\n" +
                         "В начале игры у вас есть 10 очков.\n" +
-                        "Ставка на число при проигрыше дает -2 очка, при выигрыше +4 очка.\n" +
+                        "Ставка на число при проигрыше дает -1 очкo, при выигрыше +4 очка.\n" +
                         "Ставки на цвет и на четность при проигрыше дают -1 очко, при выигрыше +1 очко.\n\n" +
                         "Максимального и минимального количества очков в игре нет. Чтобы начать с начала, запустите приложение заново.");
 
@@ -208,7 +208,6 @@ public class Controller {
                             label_win.setStyle("-fx-text-fill: green;");
                             resultNum.setStyle("-fx-border-color: green;");
                             score+=4;
-                            counter.setText("Всего очков " + score);
                         }
                         else {
                             label_win.setText("Поражение");
@@ -216,7 +215,6 @@ public class Controller {
                             label_win.setStyle("-fx-text-fill: red;");
                             resultNum.setStyle("-fx-border-color: red;");
                             score--;
-                            counter.setText("Всего очков " + score);
                         }
                 }
                 if (colorBet != null) {
